@@ -10,7 +10,61 @@
 </head>
 <body class=".container" >
 
+    
 
+    <nav>
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+              <img src="img/codoacodo.png" alt="Logo" width="100" height="60" class="d-inline-block align-text-top">
+              Conf Bs As
+            </a>
+        </div>
+        
+
+        
+
+        <ul class="nav justify-content-end">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lugar y Fecha</a>
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Conviertete en orador</a>
+              </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comprar Tickets</a>
+            </li>
+
+
+            
+
+
+            
+
+          </ul>
+
+    </nav>
+
+
+    <!-----------
     <nav class="row">
 
        
@@ -26,6 +80,7 @@
         
 
     </nav>
+    ------------------------------>
 
     <!----------------------------------------->
     <!---Sec pesentacion----------------------------->
@@ -46,8 +101,8 @@
                         que tenemos para ti.Te esperamos!
 
                     </p>
-                    <button>Quiero ser orador</button>
-                    <button>Comprar tickets</button>
+                    <button type="button" class="btn btn-light">Quiero ser un orador</button>
+                    <button type="button" class="btn btn-success">Comprar tickets</button>
                 </div>    
 
         </div>        
@@ -62,51 +117,88 @@
     <!----Sec Oradores----------------------------->
     <!----------------------------------------->
 
-    <section class="container-fluid">
+    <section class="container text-center" id="secOradores">
 
+                    <div class="row">
+                            <div class="col-3"></div>
 
-            <div class="row">
+                            <div class="col-6">
 
-                    <div class="col-md-12">
-                        <h5>Conoce a los</h5>
-                        <h2>Oradores</h2>
-                    </div>
+                                <h5>Conoce a los</h5>
+                                <h2>Oradores</h2>
+                                
+                            </div>
 
-                    <div class="col-2">
-
-
-                        <img src="img/steve.jpg" alt="steve">
-                        <button></button> 
-                        <h3>Steve Jobs</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ipsum!</p>
-            
+                             <div class="col-3"></div>
 
                     </div>
 
-                    
-                    <div class="col-2">
+                    <div class="card-group">
 
-                        <img src="img/bill.jpg" alt="bill">
-                        <button></button> 
-                        <h3>Bill Gates</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, consectetur.</p>
+                        <div class="card">
+
+                            <img src="img/steve.jpg" class="rounded float-start" alt="imgSteveJobs">  
+                         
+
+                        <div class="card-body">
+
+                            <button type="button" class="btn btn-warning">JavaScript</button>
+                            <button type="button" class="btn btn-info">React</button>
+
+                            <h5 class="card-title">Steve Jobs</h5>
+
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quia error amet officia aperiam alias aut dolor temporibus sint, beatae quod iure earum deleniti eius!</p>
+                        </div>
+
+                        
+
+                        </div>
+
+
+
+                        <div class="card">
+
+
+                        <img src="img/bill.jpg" class="rounded float-start" alt="imgBillGates">  
+
+                        <div class="card-body">
+
+                            <button type="button" class="btn btn-warning">JavaScript</button>
+                            <button type="button" class="btn btn-info">React</button>
+
+                            <h5 class="card-title">Bill Gates</h5>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iste quod alias aliquam impedit, minima dolorem maiores aut, voluptatibus ad sed reiciendis dignissimos nobis accusamus!</p>
+                        </div>
+
+                        
+
+                        </div>
+
+
+                        <div class="card">
+
+                        <img src="img/ada.jpeg" class="rounded float-start" alt="imgAda">  
+
+                        <div class="card-body">
+
+                            <button type="button" class="btn btn-secondary">Negocios</button>
+                            <button type="button" class="btn btn-danger">Startups</button>
+
+                            <h5 class="card-title">Ada Lovelace</h5>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis maxime accusantium ipsam eius nesciunt aliquid soluta repellendus temporibus illum explicabo. Ipsam fuga dolorem labore molestiae.</p>
+                        </div>
+
+                        
+
+                        </div>
 
                     </div>
-                    
-                    
 
-                    <div class="col-2">
+    </section>                
 
-                    <img src="img/ada.jpeg" alt="ada">
-                    <button></button> 
-                    <h3>Ada Lovelace</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste.</p>
-
-                    </div>
-
-                </div>           
-
-    </section>
+   
     <!----------------------------------------->
     <!----------------------------------------->
     <!----------------------------------------->
@@ -115,17 +207,18 @@
     <!----------------------------------------->
     <!--Sec provincia Bs As--------------------------------->
     <!----------------------------------------->
-    <section class="container-fluid">
+
+    <section class="container-fluid" id="secBsAs">
 
         <div class="row">
 
-            <div class="col-5">
+            
 
-                <img src="img/honolulu.jpg" alt="hawaii">
+            <img src="img/honolulu.jpg" alt="hawaii" class="col-7">
 
-            </div>
+           
 
-            <div class="col-lg-4">
+            <div class="col-lg-5">
                 <h2 >Bs As - Octubre</h2>
 
                 <p>Buenos aires es la provincia y localidad más grande de Argentina,
@@ -134,7 +227,7 @@
                     la siudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda
                     la ciudad (aproximadamente 600km2 de superficie) </p>
 
-                <button>Conocé Más</button>
+                    <button type="button" class="btn btn-outline-light">Conocé más</button>
 
             </div>    
         </div>    
@@ -147,7 +240,7 @@
     <!----------------------------------------->
     <!---Fromulario Orador------------------------>
     <!----------------------------------------->
-    <section class="container">
+    <section class="container text-center">
 
         <div class="row">
 
@@ -160,11 +253,39 @@
             <div class="col-12">
 
                 <h6>Anotate como orador para una charla ignite.Cuéntanos de qué quieres hablar!</h6>
-                <form action="">Nombre</form>
-                <form action="">Apellido</form>
-                <form action="">Sobre que quieres hablar</form>
+
+                <div class="row">
+
+                    <div class="col">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+
+                       
+
+                    </div>
+
+                    <div class="col">
+
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+
+                    </div>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que quieres hablar?"></textarea>
+
+                </div>
+
                 <p>Recuerda incluir un título para la charla</p>
-                <button>Enviar</button>
+
+                <div class="d-grid gap-2">
+                    
+                    <button type="button" class="btn btn-success">Enviar</button>
+                    
+                  </div>
 
             </div>
         

@@ -10,13 +10,53 @@ nav{
 footer{
     background-color: #06283c;
     color: white;
+   
 }
-
+#footer{
+    font-size: 20px;
+}
 
 /*Seccion BsAs*/
 
 #secBsAs{
     background-color: #3f3f3f;
     color: white;
+     
 }
+
+
+
+/*seccion oradores*/
+
+#secOradores{
+    margin: 50px;
+    margin-left: 100px;
+}
+
+#tarjetas{
+    margin: 20px;
+}
+
+/*--------------------------------------*/
+
+/*Seccion presentacion */
+
+#secPresentacion{
+    opacity: black;
+}
+
+
+
+
+
+
+
+/*-------------------------------------*/
+/*seccion registro oradores*/
+
+#secOradoresRegistro{
+    margin: 50px;
+   
+}
+
 
